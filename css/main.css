@@ -48,24 +48,24 @@ img:last-child {
 
 @media only screen and (min-width: 38em) {
 
-  img:first-child {
-    display: none;
-  }
-
   img {
     width: 32.5%;
+  }
+
+  img:first-child {
+    display: none;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  img:first-child {
-    display: inline-block;
-  }
-
   img {
     width: 24.5%;
+  }
+
+  img:first-child {
+    display: inline-block;
   }
 
 }
